@@ -37,7 +37,7 @@ Duration: 421 ms
 Note, that this is a wrong calculation as the salt is interpreted as an integer. Here is the correct version
 
 ```
-java -jar PBKDF2.jar 1 81726354 123456 Veyron x
+java -jar PBKDF2.jar 1 04df0b92 123456 Veyron x
 ```
 
 which yields
