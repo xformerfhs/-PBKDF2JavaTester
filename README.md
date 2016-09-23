@@ -12,7 +12,7 @@ where the parameters have the following meanings:
 | Parameter | Meaning |
 | --------- | ------- |
 | `hashType` | 1=SHA-1, 2=SHA-256, 3=SHA-384, 5=SHA-512 |
-| `salt` | The salt of the PBKDF2 function. This interpretation of this parameter depends on the presence of the doItRight parameter |
+| `salt` | The salt of the PBKDF2 function. The interpretation of this parameter depends on the presence of the `doItRight` parameter |
 | `iterationCount` | The iteration count for the PBKDF2 function |
 | `password` | The password that is used in the PBLDF2 function |
 | `doItRight` | If there is any parameter following the password the salt is treated as a byte array. If there is nothing following the password the salt is treated as an integer |
