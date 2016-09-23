@@ -8,6 +8,7 @@ The program is called with the following parameters:
 java -jar PBKDF2.jar <hashType> <salt> <iterationCount> <password> [<doItRight>]
 ```
 where the parameters have the following meanings:
+
 | Parameter | Meaning |
 | --------- | ------- |
 | `hashType` | 1=SHA-1, 2=SHA-256, 3=SHA-384, 5=SHA-512 |
