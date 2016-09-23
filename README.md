@@ -43,6 +43,6 @@ java -jar PBKDF2.jar 1 81726354 123456 Veyron x
 which yields
 
 ```
-HashType: SHA1, Salt: 81 72 63 54, IterationCount: 123456, Password: 'Veyron', PBKDF2: 27 49 60 EB 8A 14 98 C9 F3 B0 9B 9E 13 C9 10 97 B2 E9 EC 49
-Duration: 405 ms
+HashType: SHA1, Salt: 04 DF 0B 92, IterationCount: 123456, Password: 'Veyron', PBKDF2: 57 60 62 1F 2C 20 23 57 87 08 9D 40 4B 9D 26 EA B0 6B 9B C6
+Duration: 406 ms
 ```
