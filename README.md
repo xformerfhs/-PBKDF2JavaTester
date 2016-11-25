@@ -17,7 +17,7 @@ where the parameters have the following meanings:
 | `password` | The password that is used in the PBKDF2 function |
 | `doItRight` | If there is any parameter following the password the salt is treated as a byte array. If there is nothing following the password the salt is treated as an integer |
 
-The program has 2 to modi. In the first modus (the "wrong" modus) it interprets the "salt" as an integer. This is a common misconception and found quite often on the internet.
+The program has 2 modi. In the first modus (the "wrong" modus) it interprets the "salt" as an integer. This is a common misconception and found quite often on the internet.
 
 In the second modus it interprets the "salt" as a byte array which is the correct way to handle it.
 
