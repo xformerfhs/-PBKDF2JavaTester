@@ -329,7 +329,7 @@ public class PBKDF2Java {
 //         System.out.format("password: %s\n", bytesToHex(stringToBytesASCII(password)));
 
          /*
-          * 5. Generate the PBKDF2 value and mesaure the time it took to generate it
+          * 5. Generate the PBKDF2 value and measure the time it took to generate it
           */
          try {
             long   start = System.currentTimeMillis();
