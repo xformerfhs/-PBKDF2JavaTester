@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2016, DB Systel GmbH
+ * Copyright (c) 2016-2023, DB Systel GmbH
+ * Copyright (c) 2023, Frank Schwab
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -17,7 +18,7 @@
  * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * Author: Frank Schwab, DB Systel GmbH
+ * Author: Frank Schwab
  *
  * Example program to show correct and incorrect password storage with the PBKDF2 function
  *
